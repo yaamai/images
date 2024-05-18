@@ -15,7 +15,7 @@ jobs:
   build:
     strategy:
       matrix:
-        path: ["caddy", "ffsyncserver"]
+        path: ["caddy"]
 
     runs-on: ubuntu-latest
     permissions:
